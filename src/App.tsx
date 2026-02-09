@@ -5,7 +5,7 @@ import EditUserPage from "./pages/EditUserPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-user-crud">
       <Routes>
         <Route path="/" element={<UsersPage />} />
         <Route path="/add" element={<EditUserPage />} />
