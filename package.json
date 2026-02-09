@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/myth293/react-user-crud.git",
+  "homepage": "https://myth293.github.io/react-user-crud",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
