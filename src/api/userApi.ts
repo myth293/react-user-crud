@@ -2,7 +2,7 @@ import axios from "axios";
 import type { User } from "../types/user";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/users",
+  baseURL: "https://698ac6346c6f9ebe57ba916f.mockapi.io/react-user-crud/users",
 });
 
 export const getUsers = () => API.get<User[]>("/");
