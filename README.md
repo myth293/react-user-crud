@@ -8,17 +8,9 @@ A React + TypeScript CRUD application to manage user data, built with Ant Design
 
 https://myth293.github.io/react-user-crud/
 
-> Note: The live deployment currently relies on a local JSON server for data.  
-> Without running `npm run server`, the app will not load any data and will appear stuck loading.  
-> To use full CRUD functionality, either run the local JSON server:
->
-> ```bash
-> npm run server
-> ```
->
-> **Or** connect the app to a proper backend API instead of the local JSON server.
-
----
+> The application is connected to an online MockAPI backend.
+> No local setup or server is required to use the live app.
+> CRUD operations work directly from the deployed link.
 
 ## Setup Instructions
 
@@ -35,13 +27,7 @@ cd user-crud
 npm install
 ```
 
-3. Start mock API (JSON-server):
-
-```bash
-npx json-server --watch db.json --port 4000
-```
-
-4. Start the app:
+3. Start the app:
 
 ```bash
 npm run dev
@@ -67,6 +53,15 @@ Open: [http://localhost:5173]
 The form and API integration automatically handle it.
 
 ---
+
+## Features
+
+* Create, Read, Update, Delete users
+* Input validation and required fields
+* Pagination added to the user table
+* Responsive UI with horizontal table scroll for small screens
+* Configuration driven form rendering for extensibility
+* Axios based API integration with proper loading states
 
 ## Assumptions / Design Decisions
 
