@@ -30,8 +30,6 @@ const UserTable = ({ users, onEdit, onDelete }: any) => {
       scroll={{ x: 800 }}
       pagination={{
         pageSize: 5,
-        showSizeChanger: true,
-        pageSizeOptions: ["5", "10", "20", "50"],
       }}
     />
   );
